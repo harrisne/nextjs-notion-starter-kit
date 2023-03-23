@@ -18,8 +18,9 @@ export default siteConfig({
 
   // social usernames (optional)
   twitter: 'arq_tm',
-//   github: 'transitive-bullshit',
-//   linkedin: 'fisch2',
+  instagram: 'arq_tm',
+  //   github: 'transitive-bullshit',
+  //   linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -54,12 +55,12 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-       title: 'About',
-       pageId: '7f4f313eca0640f79b720d29c803e6ab'
-     },
-     {
-       title: 'Portfolio',
-       pageId: '9ae5fa4fbb024d419c626f7a25caaf27'
+      title: 'About',
+      pageId: '7f4f313eca0640f79b720d29c803e6ab'
+    },
+    {
+      title: 'Portfolio',
+      pageId: '9ae5fa4fbb024d419c626f7a25caaf27'
     }
   ]
 })
