@@ -65,6 +65,10 @@ export default siteConfig({
     {
       title: 'Prints',
       pageId: 'bd7cc1e055bb4dcd8dc60c075d78463d'
+    },
+    {
+      title: 'Shop',
+      pageId: 'e7f6de20b5dd42b3822cf1f100b52964'
     }
   ]
 })
