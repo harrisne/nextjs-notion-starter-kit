@@ -61,6 +61,11 @@ export default siteConfig({
     {
       title: 'Portfolio',
       pageId: '9ae5fa4fbb024d419c626f7a25caaf27'
+    },
+    {
+      title: 'Prints',
+      pageId: 'bd7cc1e055bb4dcd8dc60c075d78463d'
     }
   ]
 })
+
