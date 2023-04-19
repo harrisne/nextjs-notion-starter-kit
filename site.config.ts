@@ -54,18 +54,18 @@ export default siteConfig({
   // navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
-    {
-      title: 'About',
-      pageId: '7f4f313eca0640f79b720d29c803e6ab'
-    },
-    {
-      title: 'Portfolio',
-      pageId: '9ae5fa4fbb024d419c626f7a25caaf27'
-    },
-    {
-      title: 'Prints',
-      pageId: 'bd7cc1e055bb4dcd8dc60c075d78463d'
-    },
+    // {
+    //   title: 'About',
+    //   pageId: '7f4f313eca0640f79b720d29c803e6ab'
+    // },
+    // {
+    //   title: 'Portfolio',
+    //   pageId: '9ae5fa4fbb024d419c626f7a25caaf27'
+    // },
+    // {
+    //   title: 'Prints',
+    //   pageId: 'bd7cc1e055bb4dcd8dc60c075d78463d'
+    // },
     {
       title: 'Shop',
       pageId: 'e7f6de20b5dd42b3822cf1f100b52964'
