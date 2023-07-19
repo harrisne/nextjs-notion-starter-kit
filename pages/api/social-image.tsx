@@ -87,24 +87,24 @@ export default async function OGImage(req: NextRequest) {
         <div
           style={{
             position: 'relative',
-            width: 900,
-            height: 465,
+            width: 0,
+            height: 0,
             display: 'flex',
             flexDirection: 'column',
-            border: '16px solid rgba(0,0,0,0.3)',
-            borderRadius: 8,
+            border: '0px solid rgba(0,0,0,0.3)',
+            borderRadius: 0,
             zIndex: '1'
           }}
         >
           <div
             style={{
-              width: '100%',
-              height: '100%',
+              width: '0%',
+              height: '0%',
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-around',
               backgroundColor: '#fff',
-              padding: 24,
+              padding: 1,
               alignItems: 'center',
               textAlign: 'center'
             }}
@@ -113,67 +113,9 @@ export default async function OGImage(req: NextRequest) {
               <div style={{ fontSize: 32, opacity: 0 }}>{pageInfo.detail}</div>
             )}
 
-            <div
-              style={{
-                fontSize: 70,
-                fontWeight: 700,
-                fontFamily: 'Inter'
-              }}
-            >
-              {pageInfo.title}
-            </div>
-
-            {pageInfo.detail && (
-              <div style={{ fontSize: 32, opacity: 0.6 }}>
-                {pageInfo.detail}
-              </div>
-            )}
           </div>
         </div>
-
-        {pageInfo.authorImage && (
-          <div
-            style={{
-              position: 'absolute',
-              top: 47,
-              left: 104,
-              height: 128,
-              width: 128,
-              display: 'flex',
-              borderRadius: '50%',
-              border: '4px solid #fff',
-              zIndex: '5'
-            }}
-          >
-            <img
-              src={pageInfo.authorImage}
-              style={{
-                width: '100%',
-                height: '100%'
-                // transform: 'scale(1.04)'
-              }}
-            />
-          </div>
-        )}
       </div>
     ),
-    {
-      width: 1200,
-      height: 630,
-      fonts: [
-        {
-          name: 'Inter',
-          data: interRegularFont,
-          style: 'normal',
-          weight: 400
-        },
-        {
-          name: 'Inter',
-          data: interBoldFont,
-          style: 'normal',
-          weight: 700
-        }
-      ]
-    }
   )
 }
