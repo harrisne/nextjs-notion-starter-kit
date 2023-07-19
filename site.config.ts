@@ -54,22 +54,18 @@ export default siteConfig({
   // navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
-    // {
-    //   title: 'About',
-    //   pageId: '7f4f313eca0640f79b720d29c803e6ab'
-    // },
-    {
-      title: 'Portfolio',
-      pageId: '9ae5fa4fbb024d419c626f7a25caaf27'
-    },
-    // {
-    //   title: 'Prints',
-    //   pageId: 'bd7cc1e055bb4dcd8dc60c075d78463d'
-    // },
     {
       title: 'Notion',
       pageId: 'e7f6de20b5dd42b3822cf1f100b52964'
-    }
+    },
+    {
+      title: 'About',
+      pageId: '7f4f313eca0640f79b720d29c803e6ab'
+    },
+    {
+      title: 'Work',
+      pageId: '879e652dde924e66893713c272668313'
+    },
   ]
 })
 
