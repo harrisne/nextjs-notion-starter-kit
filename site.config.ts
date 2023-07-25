@@ -58,14 +58,6 @@ export default siteConfig({
       title: 'Notion',
       pageId: 'e7f6de20b5dd42b3822cf1f100b52964'
     },
-    {
-      title: 'About',
-      pageId: '7f4f313eca0640f79b720d29c803e6ab'
-    },
-    {
-      title: 'Work',
-      pageId: '879e652dde924e66893713c272668313'
-    },
   ]
 })
 
