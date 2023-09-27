@@ -10,15 +10,15 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Nicole\'s Website',
-  domain: 'arq1.vercel.app',
-  author: 'Nicole',
+  domain: 'heliablog.com',
+  author: 'Nicole H',
 
   // open graph metadata (optional)
-  description: 'Digital artist arq_tm\'s portfolio and blog website',
+  description: 'Digital artist arquebun\'s portfolio and blog website',
 
   // social usernames (optional)
-  twitter: 'arq_tm',
-  instagram: 'arq_tm',
+  twitter: 'arquebun',
+  instagram: 'arquebun',
   //   github: 'transitive-bullshit',
   //   linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
